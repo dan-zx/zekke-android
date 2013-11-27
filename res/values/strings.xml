@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2013 ZeKKe Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">ZeKKe</string>
+
+    <!-- ACTIVITY LABELS -->
+    <string name="map_routes_activity_label">Rutas</string>
+    <string name="settings_activity_label">Ajustes</string>
+
+    <!-- MENU -->
+    <string name="my_location_menu_title">Mi ubicación</string>
+    <string name="settings_menu_title">Ajustes</string>
+    <string name="search_places_menu_title">Buscar lugares</string>
+    <string name="find_route_menu_title">Encontrar ruta</string>
+
+    <!-- SETTINGS ACTIVITY -->
+    <string name="my_location_preferences">Mi ubicación</string>
+    <string name="my_location_intent_title">Fuentes de ubicación</string>
+    <string name="my_location_intent_summary">Abrir configuración del sistema</string>
+    <string name="map_preferences">Mapas</string>
+    <string name="map_type_pref_title">Tipo de mapas</string>
+    <string name="map_type_pref_summary">Tipo actual: %s</string>
+    <string name="about_preferences">Acerca de</string>
+    <string name="home_website_pref_title">Proyecto ZeKKe en la web</string>
+    <string name="home_website_pref_summary">Derechos reservados © 2013</string>
+    <string name="rate_google_play_pref_title">¿Te gustó?</string>
+    <string name="rate_google_play_pref_summary">Califíca a ZeKKe en Google Play</string>
+    <string name="version_pref_title">Versión 1.0-SNAPSHOT</string>
+    <string name="version_pref_summary">Última actualización 26/11/2013</string>
+
+    <!-- NETWORK CONNECTIVITY DIALOG -->
+    <string name="network_connectivity_dialog_title">Conectividad a internet</string>
+    <string name="network_connectivity_dialog_messege">Para usar esta aplicación una necesita conexión a internet</string>
+    <string name="network_connectivity_dialog_positive_button_label">Configurar redes</string>
+
+    <!-- MY LOCATION WARNINGS -->
+    <string name="my_location_unavailable">Su ubicación no esta disponible temporalmente</string>
+    <string name="my_location_diseabled">Habilita una fuente de Mi ubicación en la configuración del sistema</string>
+    
+    <!-- ERRORS -->
+    <string name="no_place_found_in_location">No se encontrón ningún lugar conocido en esa ubicación</string>
+    <string name="no_places_found_by_given_name">No se encontrón ningún lugar con ese nombre</string>
+    <string name="no_route_root_marker_selected">No se ha seleccionado un lugar de inicio de ruta</string>
+    <string name="no_route_target_marker_selected">No se ha seleccionado un lugar de destino de ruta</string>
+    <string name="no_route_markers_selected">No se han seleccionado los lugares de inicio y destino de ruta</string>
+    <string name="no_route_found">No hay una ruta entre los lugares seleccionados</string>
+    
+    <!-- SETTING ROUTE MARKERS DIALOG -->
+    <string name="route_marker_dialog_title">Usar este lugar como:</string>
+    
+    <!-- ROUTE -->
+    <string name="route_distance">Distancia a recorrer: %1$,.2f metros</string>
+
+    <!-- URLS -->
+    <string name="zekke_project_website">http://zekke.herokuapp.com</string>
+    <string name="google_play_zekke_url">market://details?id=com.zekke.android</string>
+    <string name="google_play_zekke_web_url">http://play.google.com/store/apps/details?id=com.zekke.android</string>
+
+    <!-- KEYS -->
+    <string name="google_maps_v2_debug_api_key">AIzaSyC5Q91agDcYHkr6hiQ6FUFXWJBS9Cua1Jg</string>
+    <string name="google_maps_v2_release_api_key">AIzaSyDkDQf2Qjll4S0GZHGUDFBFsZrXiNLM87A</string>
+
+</resources>

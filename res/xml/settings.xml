@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2013 ZeKKe Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/my_location_preferences" >
+        <PreferenceScreen
+            android:key="my_location_intent_pref_key"
+            android:summary="@string/my_location_intent_summary"
+            android:title="@string/my_location_intent_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/map_preferences" >
+        <ListPreference
+            android:dialogTitle="@string/map_type_pref_title"
+            android:key="map_type_pref_key"
+            android:summary="@string/map_type_pref_summary"
+            android:title="@string/map_type_pref_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about_preferences" >
+        <PreferenceScreen
+            android:key="home_website_pref_key"
+            android:summary="@string/home_website_pref_summary"
+            android:title="@string/home_website_pref_title" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/zekke_project_website" />
+        </PreferenceScreen>
+        <Preference
+            android:key="rate_google_play_pref_key"
+            android:summary="@string/rate_google_play_pref_summary"
+            android:title="@string/rate_google_play_pref_title" />
+        <Preference
+            android:key="version_pref_key"
+            android:summary="@string/version_pref_summary"
+            android:title="@string/version_pref_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
