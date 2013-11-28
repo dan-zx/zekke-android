@@ -181,7 +181,7 @@ public class MapRoutesActivity extends RoboSherlockFragmentActivity {
                     GeoPoint targetPosition = new GeoPoint();
                     targetPosition.setLatitude(routeTargetMarker.getPosition().latitude);
                     targetPosition.setLongitude(routeTargetMarker.getPosition().longitude);
-                    routeFinderClient.findShortestRoute(rootPosition, targetPosition);
+                    routeFinderClient.findRoute(rootPosition, targetPosition);
                 } else if (routeRootMarker == null && routeTargetMarker != null) {
                     Toast.makeText(getApplicationContext(), R.string.no_route_root_marker_selected, Toast.LENGTH_LONG).show();
                 } else if (routeRootMarker != null && routeTargetMarker == null) {
