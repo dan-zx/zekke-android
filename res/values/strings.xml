@@ -41,7 +41,7 @@
     <string name="rate_google_play_pref_title">¿Te gustó?</string>
     <string name="rate_google_play_pref_summary">Califíca a ZeKKe en Google Play</string>
     <string name="version_pref_title">Versión 1.0-SNAPSHOT</string>
-    <string name="version_pref_summary">Última actualización 28/11/2013</string>
+    <string name="version_pref_summary">Última actualización 19/12/2013</string>
 
     <!-- NETWORK CONNECTIVITY DIALOG -->
     <string name="network_connectivity_dialog_title">Conectividad a internet</string>
